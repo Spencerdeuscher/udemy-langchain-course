@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+.venv/*
+pip-wheel-metadata/
+
+# Packaging / distributions
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checkers / caches
+.mypy_cache/
+.python-version
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Secrets / envs / keys
+.env
+.env.*
+.envrc
+*.pem
+*.key
+credentials
+*.secret
+openai_api_key
+*.crt
+
+# Databases / local data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.ldb
+
+# ML models / checkpoints / weights
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Vectorstores & embeddings (common LangChain artifacts)
+.chroma/
+.chroma_db/
+chroma.db
+chromadb/
+chromadb-*
+faiss_index
+index.faiss
+*.faiss
+vectorstore/
+vectors/
+embeddings/
+embeddings-*
+
+# Other build artifacts
+*.egg
+*.whl
+
+# Node (if using JS examples)
+node_modules/
+
+# Misc
+coverage/
+.idea/
+.cache/
